@@ -35,3 +35,10 @@ def lampcommand(command):
     requests.post(
         "https://maker.ifttt.com/trigger/" + command + "/with/key/" + iftttkey
     )
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit("Manually Interrupted")
