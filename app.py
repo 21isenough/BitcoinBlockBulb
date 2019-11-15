@@ -29,3 +29,9 @@ def main():
                 lampcommand("turn_off")
 
         time.sleep(1)
+
+
+def lampcommand(command):
+    requests.post(
+        "https://maker.ifttt.com/trigger/" + command + "/with/key/" + iftttkey
+    )
