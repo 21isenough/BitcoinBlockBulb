@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-import requests, sys, subprocess, time
+import requests
+import sys
+import subprocess
+import time
+
 from datetime import datetime
 
 iftttkey = "#####"  ## e.g. kw4Iskwofksh5Sl5p-cFOZ
