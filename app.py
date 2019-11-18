@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 
 iftttkey = "#####"  ## e.g. kw4Iskwofksh5Sl5p-cFOZ
-debugfile = "/folder/.bitcoin/debug.log"
+debugfile = "~/user/.bitcoin/debug.log"
 
 tailcommand = "tail -1 " + debugfile + " | awk '{printf $5}'"
 
